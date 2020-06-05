@@ -33,13 +33,13 @@ The code part in the answer can help us to identify the root cause.
 Furthermore, the validation tag allows us to identify if the answer is good or not.
 
 
-We decided, for bias reasons, to keep only the questions that had a validated answer.
+We decided, because of bias, to keep only the questions that had a validated answer.
 
 ![Our dataframe](images/output_df.png)
 
 ### embedding.py
 
-In this file, you will find a class that create our own Embedding based on the Fasttext algorithm.
+In this file, you will find a class that creates our own Embedding based on the Fasttext algorithm.
 We decided to create our own Embedding matrix for context reasons.
 
 Let's take an example, the word "abstract", the definition of this word is "An abstract is a brief summary of a research article" but for stackover flow the real definition is "A class is called an Abstract class if it contains one or more abstract methods. An abstract method is a method that is declared, but contains no implementation.".
@@ -49,11 +49,11 @@ So that's why we need our own Embedding Matrix.
 ### model.py
 
 In this file, you will find differents functions : 
-* One to use the Embedding class
-* One to create Trai, Test, validation set
-* One to build our model
-* One to fit the model
-* One for our loss (sparse_categorical_crossentropy)
+* One to use the Embedding class.
+* One to create Trai, Test, validation set.
+* One to build our model.
+* One to fit the model.
+* One for our loss function (sparse_categorical_crossentropy).
 * One to predict a Numpy array.
 
 ## Futur Release
@@ -61,7 +61,7 @@ This is the first version of the project and much improvement is planned in the 
 * Parallelization of the for loop in dataframe.py.
 * Use SVD for the tags features.
 * Use matrix factorization from SVD as new inputs feature of our Neural Networks. 
-* Add Shapley Values for interprete the model. 
+* Add Shapley Values to interprete the model. 
 
 
 
@@ -75,11 +75,11 @@ Project is created with Python 3.6.9.
 * [NumPy](https://numpy.org)
 * [scikit-learn](https://scikit-learn.org/stable/)
 * [Matplotlib](https://matplotlib.org)
-* [seaborn](https://seaborn.pydata.org)
 * [pandas](https://pandas.pydata.org)
 * [gensim](https://radimrehurek.com/gensim/)
-* [itertools](https://docs.python.org/2/library/itertools.html)
-* [functools](https://docs.python.org/3/library/functools.html)
+* [NLTK](https://www.nltk.org/)
+* [re](https://docs.python.org/3/library/re.html)
+
 
 
 ## Contact
