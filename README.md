@@ -17,11 +17,11 @@ This project is in three parts :
 ### dataframe.py
 In this files, we create a tool that scrapes the Stackoverflow website and for every question with validate answer we collect some informations.
 ![Question on Stackover](images/Question.png)
-As you can see, we can have many information on the question part :
+As you can see, we can have many informations on the question part :
 * The title.
 * The question.
-* Sometimes we can have the code that generate an error.
-* Tags: Tags can help us about the packages, or they can tell us which technologies or which langages.
+* Sometimes we can have the code that generates an error.
+* Tags: Tags can help us about the packages, or they can tell us which technologies or which langages are used.
 
 ![Answer on Stackover](images/Answer.png)
 On the Answer part :
