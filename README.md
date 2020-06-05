@@ -8,7 +8,7 @@ We want to build a tool that scrapes the Stackoverflow website and for every que
 ## Table of contents
 * [Helpful Link For The Project](#Helpful-Link-For-The-Project)
 * [File Descriptions](#File-Descriptions)
-* [Results](#Results)
+* [Futur Release](#Futur-Release)
 * [Technologies](#technologies)
 * [Contact](#Contact)
 ## File Descriptions
@@ -45,6 +45,24 @@ We decided to create our own Embedding matrix for context reasons.
 Let's take an example, the word "abstract", the definition of this word is "An abstract is a brief summary of a research article" but for stackover flow the real definition is "A class is called an Abstract class if it contains one or more abstract methods. An abstract method is a method that is declared, but contains no implementation.".
 
 So that's why we need our own Embedding Matrix.
+
+### model.py
+
+In this file, you will find differents functions : 
+* One to use the Embedding class
+* One to create Trai, Test, validation set
+* One to build our model
+* One to fit the model
+* One for our loss (sparse_categorical_crossentropy)
+* One to predict a Numpy array.
+
+## Futur Release
+This is the first version of the project and much improvement is planned in the coming weeks.
+* Parallelization of the for loop in dataframe.py.
+* Use SVD for the tags features.
+* Use matrix factorization from SVD as new inputs feature of our Neural Networks. 
+
+
 
 ## Technologies
 ### Languages
