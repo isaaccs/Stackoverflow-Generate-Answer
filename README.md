@@ -61,6 +61,7 @@ This is the first version of the project and much improvement is planned in the 
 * Parallelization of the for loop in dataframe.py.
 * Use SVD for the tags features.
 * Use matrix factorization from SVD as new inputs feature of our Neural Networks. 
+* Add Shapley Values for interprete the model. 
 
 
 
