@@ -1,7 +1,7 @@
 # Stackoverflow Generate Answer
 
 ## Motivations :
-We want to build a tool that scrapes the Stackoverflow website and for every question (generally a question reflects a symptom of a problem) it predicts two things:
+We want to build a tool that scrapes the Stackoverflow website and, for every question, (generally a question reflects a symptom of a problem) it predicts two things:
 * The root cause of the problem
 * The solution (answer) of the problem 
 
@@ -16,7 +16,7 @@ This project is in three parts :
 
 ### dataframe.py
 In this files, we create a tool that scrapes the Stackoverflow website and for every question with validate answer we collect some informations.
-![Question on Stackover](images/Question.png
+![Question on Stackover](images/Question.png)
 As you can see, we can have many information on the question part :
 * The title.
 * The question.
