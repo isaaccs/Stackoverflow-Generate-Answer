@@ -25,9 +25,9 @@ As you can see, we can have many informations on the question part :
 
 ![Answer on Stackover](images/Answer.png)
 On the Answer part :
-* The Answer.
+* The text answer.
 * Sometimes we can have the code.
-* Validate Answer.
+* Validate Answer Tag.
 
 The code part in the answer can help us to identify the root cause. 
 Furthermore, the validation tag allows us to identify if the answer is good or not.
